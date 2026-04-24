@@ -22,12 +22,14 @@ Solução de Machine Learning para classificação da Síndrome dos Ovários Pol
 4. Execute todas as células: Run All
 
 ## Estrutura do Projeto
+```
 tech-challenge/
 ├── pcos_sop_final.ipynb               # Notebook principal
 ├── PCOS_data_without_infertility.xlsx  # Dataset
 ├── modelo_pcos_random_forest.pkl       # Modelo Random Forest salvo
 ├── modelo_pcos_arvore_decisao.pkl      # Modelo Árvore de Decisão salvo
 └── README.md                           # Documentação
+```
 
 ## Tecnologias
 Python 3.13.5, pandas, numpy, matplotlib, seaborn, scikit-learn, shap, joblib
