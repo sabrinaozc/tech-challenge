@@ -1,7 +1,7 @@
-# Tech Challenge Fase 1 — PosTech/FIAP
+# Tech Challenge Fase 1 — Pós Tech/FIAP
 ## Classificação de Síndrome dos Ovários Policísticos (SOP) com Machine Learning
 
-## Descrição
+## Objetivo do Projeto
 Construir uma solução inicial de Inteligência Artificial focada em Machine Learning para processamento de dados médicos relacionados à saúde da mulher, aplicando fundamentos essenciais de IA e aprendizado de máquina.
 Especificamente, desenvolvemos um sistema de classificação automática da Síndrome dos Ovários Policísticos (SOP), capaz de analisar dados clínicos de pacientes e identificar padrões de risco, apoiando profissionais de saúde na identificação precoce da condição.
 O modelo desenvolvido atua como ferramenta de apoio ao diagnóstico, sendo o médico sempre responsável pela decisão final.
@@ -34,8 +34,8 @@ tech-challenge/
 └── README.md                           # Documentação
 ```
 
-## Tecnologias
+## Tecnologias utilizadas
 Python 3.13.5, pandas, numpy, matplotlib, seaborn, scikit-learn, shap, joblib
 
 ## Resultado Principal
-O Random Forest obteve 91% de acurácia na classificação de SOP. As variáveis mais importantes foram o número de folículos ovarianos, ganho de peso e crescimento de pelos — consistentes com os critérios clínicos de Rotterdam.
+O Random Forest obteve 91% de acurácia na classificação de SOP. As variáveis mais importantes foram o número de folículos ovarianos, ganho de peso e crescimento de pelos — consistentes com os Critérios Clínicos de Rotterdam, que constituem o padrão ouro internacional para o diagnóstico da Síndrome dos Ovários Policísticos (SOP).
