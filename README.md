@@ -24,7 +24,7 @@ Solução de Machine Learning para classificação da Síndrome dos Ovários Pol
 ## Estrutura do Projeto
 ```
 tech-challenge/
-├── pcos_sop_final.ipynb               # Notebook principal
+├── pcos_sop_final.ipynb                # Notebook principal
 ├── PCOS_data_without_infertility.xlsx  # Dataset
 ├── modelo_pcos_random_forest.pkl       # Modelo Random Forest salvo
 ├── modelo_pcos_arvore_decisao.pkl      # Modelo Árvore de Decisão salvo
