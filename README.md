@@ -2,7 +2,10 @@
 ## Classificação de Síndrome dos Ovários Policísticos (SOP) com Machine Learning
 
 ## Descrição
-Solução de Machine Learning para classificação da Síndrome dos Ovários Policísticos (SOP), usando dados clínicos de 541 pacientes. Projeto desenvolvido como parte do Tech Challenge Fase 1 da PosTech/FIAP.
+Construir uma solução inicial de Inteligência Artificial focada em Machine Learning para processamento de dados médicos relacionados à saúde da mulher, aplicando fundamentos essenciais de IA e aprendizado de máquina.
+Especificamente, desenvolvemos um sistema de classificação automática da Síndrome dos Ovários Policísticos (SOP), capaz de analisar dados clínicos de pacientes e identificar padrões de risco, apoiando profissionais de saúde na identificação precoce da condição.
+O modelo desenvolvido atua como ferramenta de apoio ao diagnóstico, sendo o médico sempre responsável pela decisão final.
+Projeto desenvolvido como parte do Tech Challenge Fase 1 da Pós Tech/FIAP.
 
 ## Dataset
 - **Nome:** PCOS_data_without_infertility.xlsx
