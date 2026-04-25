@@ -19,10 +19,7 @@ Projeto desenvolvido como parte do Tech Challenge Fase 1 da Pós Tech/FIAP.
 | Random Forest | 91% | 0.93 | 0.78 | 0.85 |
 
 ## Como Executar
-1. Clone o repositório
-2. Instale as dependências: pip install pandas numpy matplotlib seaborn scikit-learn shap joblib openpyxl
-3. Abra o notebook: pcos_sop_final.ipynb
-4. Execute todas as células: Run All
+pip install pandas numpy matplotlib seaborn scikit-learn shap joblib openpyxl
 
 ## Estrutura do Projeto
 ```
@@ -33,8 +30,13 @@ tech-challenge/
 ├── modelo_pcos_arvore_decisao.pkl      # Modelo Árvore de Decisão salvo
 └── README.md                           # Documentação
 ```
+## Explicabilidade e Transparência
+Para garantir que o modelo seja confiável para uso médico, utilizamos a biblioteca SHAP (SHapley Additive exPlanations). Isso nos permite entender não apenas o que o modelo previu, mas quais variáveis (como níveis hormonais ou sinais físicos) foram determinantes para cada diagnóstico individual.
 
-## Tecnologias utilizadas
+## Tratamento de Dados
+O projeto inclui um pipeline de limpeza que trata: Imputação de valores ausentes por média e moda; Ajuste de cabeçalhos e seleção de abas específicas de arquivos .xlsx complexos; Conversão de tipos de dados para processamento numérico de alta precisão.
+
+## Tecnologias Utilizadas
 Python 3.13.5, pandas, numpy, matplotlib, seaborn, scikit-learn, shap, joblib
 
 ## Resultado Principal
